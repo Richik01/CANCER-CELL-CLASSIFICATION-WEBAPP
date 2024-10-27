@@ -19,9 +19,9 @@ class LogisticRegression(nn.Module):
         return act_out
 
 model = LogisticRegression(15)
-model.load_state_dict(torch.load('data\\model.pth', weights_only=True))
+model.load_state_dict(torch.load('data/model.pth', weights_only=True))
 
-with open('data\\scaler.pkl', 'rb') as s:
+with open('data/scaler.pkl', 'rb') as s:
     ss = pickle.load(s)
 
 def get_cleaned_data():
