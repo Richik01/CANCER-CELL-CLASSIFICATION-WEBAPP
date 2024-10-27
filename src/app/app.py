@@ -147,11 +147,11 @@ def add_predictions(input_data):
   
   
   if binary_fun(prediction) == 0:
-    st.write("Probability of being benign: {:.3f}".format(float(prediction.detach()[0][0])))
-    st.write("Probability of being malicious: {:.3f}".format(1 - float(prediction.detach()[0][0])))
+    st.write("Probability of being benign: {:.3f}".format(1 - float(prediction.detach()[0][0])))
+    st.write("Probability of being malicious: {:.3f}".format(float(prediction.detach()[0][0])))
   else:
-    st.write("Probability of being malicious: ", prediction)
-    st.write("Probability of being benign: ", 1 - prediction)
+    st.write("Probability of being malicious: {:.3f}".format(float(prediction)))
+    st.write("Probability of being benign: {:.3f}".format(float(1 - prediction)))
      
   st.write("This app can assist medical professionals in making a diagnosis, but should not be used as a substitute for a professional diagnosis.")
 
