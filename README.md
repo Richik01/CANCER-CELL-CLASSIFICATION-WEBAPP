@@ -1,4 +1,4 @@
-HOSTED LINK : https://cvzjavsnpvxmaxn2vkv8pd.streamlit.app/
+HOSTED LINK : [https://cvzjavsnpvxmaxn2vkv8pd.streamlit.app/](https://cancer-cell-classification-webapp-gsvwhxagps55xc3ak87dra.streamlit.app/)
 
 ### BREAST CANCER CELL DETECTION
 - Uses logistic regression to classify
